@@ -5,7 +5,7 @@
 # from tkinter import simpledialog, messagebox
 
 # # Configure your API key
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -90,7 +90,7 @@
 # from tkinter import simpledialog, messagebox
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -175,7 +175,7 @@
 # from tkinter import simpledialog, messagebox
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -285,7 +285,7 @@
 # from tkinter import simpledialog, messagebox, scrolledtext
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -409,7 +409,7 @@
 # from tkinter import simpledialog, messagebox
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -547,7 +547,7 @@
 # from tkinter import simpledialog, messagebox
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -682,7 +682,7 @@
 # import tkinter as tk
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -825,7 +825,7 @@
 # from tkinter import PhotoImage  # Import PhotoImage to load images
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -978,7 +978,7 @@
 # from PIL import Image, ImageTk  # Import Image and ImageTk for image handling
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -1132,7 +1132,7 @@
 # from PIL import Image, ImageTk  # Import Image and ImageTk for image handling
 
 # # Configure your API key directly in the code
-# genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+# genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # # Initialize a log to store command history and outputs
 # command_log = []
@@ -1284,7 +1284,7 @@ import tkinter as tk
 from PIL import Image, ImageTk  # Import Image and ImageTk for image handling
 
 # Configure your API key directly in the code
-genai.configure(api_key="AIzaSyCAjkkf4L37uhSZ4jCmTzNcTZ0mQx8uEEI")
+genai.configure(api_key=os.getenv("GEMINIAI_API_KEY"))
 
 # Initialize a log to store command history and outputs
 command_log = []
